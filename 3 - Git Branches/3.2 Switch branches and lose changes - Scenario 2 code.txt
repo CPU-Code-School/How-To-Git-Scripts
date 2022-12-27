@@ -1,0 +1,7 @@
+rem cd in to git-branch-fun
+
+git switch main
+echo create database productdb > 1-db.txt
+
+rem attempt to switch to new-version
+rem switch to new-version with --discard-changes

@@ -1,0 +1,6 @@
+echo a > r1.txt
+echo a > r2.txt
+git add .
+git commit -m 8-restore-2nd-scenario
+echo b > r1.txt
+echo c > r2.txt

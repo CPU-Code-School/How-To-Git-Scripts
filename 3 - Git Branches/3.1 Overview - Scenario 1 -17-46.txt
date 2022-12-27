@@ -1,0 +1,21 @@
+rem cd in to the repos folder
+
+mkdir git-branch-fun
+cd git-branch-fun
+git init
+echo create database > 1-db.txt
+echo sample data > 2-data.txt
+git add .
+git commit -m "1 setup and basic code"
+cmd /k
+
+
+rem Create and switch to branch new-version
+rem git status to show you are on new branch
+rem Add a third file and commit in new-version: echo Lorem Ipsum > 2b-Latin-sample-data.txt  
+rem git log to show commit is in new branch
+rem git log to show branches formatted nicely
+git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
+rem open visual tools to see branches gitk --all for git gui
+rem Switch to main, add a fourth file, and commit: echo system code > 3-system-code.txt 
+rem Switch branches to examine how it feels to work with multiple versions.

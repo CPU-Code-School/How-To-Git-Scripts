@@ -1,0 +1,39 @@
+-Starting with local and pushing to remote
+-create github repo
+-establish remote connection to repo
+git remote add origin <url>
+-to see remote repo info
+git remote -v
+-attempt to pull on any branch at this point
+-establish remote connection to main branch
+git push -u origin main
+--or establish remote connection for all branches
+git push --all -u origin
+--pull on any branch at this point
+
+--create new local branch
+--attempt to push
+git push --set-upstream origin <name>
+-show branches and their remotes
+git branch -vv
+
+-local changes in a branch are not included in push from a different branch
+-make local change in branch, switch to main push, show that change is not pushed
+-do the same with git push --all, show that all branch changes are pushed
+
+-remote changes in a branch are not included in pull from a different branch
+-make a change in a branch on github, in local pull main, then switch to branch, see if change was pulled
+-you must pull each branch separately
+
+-work locally on branch created remotely
+-create branch in github
+-show that branch is unknown by local
+git branch -a
+-have local get latest info about remote
+git fetch
+-show that branch is still not part of local branches
+git branch
+-switch name of remote branch will create branch locally and track it
+-or you can be specific
+git switch -c <branch> --track origin/<branch>
+

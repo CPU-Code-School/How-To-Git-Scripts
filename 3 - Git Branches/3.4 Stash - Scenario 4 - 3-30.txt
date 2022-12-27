@@ -1,0 +1,12 @@
+rem cd in to git-branch-fun
+
+git switch main
+echo create database productdb > 1-db.txt
+cmd /k
+
+rem attempt to switch to new-version
+rem stash changes and switch to new-version
+rem do some work on new version, commit
+rem switch back to main
+rem pop changes off the stash, commit
+

@@ -1,0 +1,41 @@
+You have a code review with other developers in 10 min, they are going to pull your changes and also watch your screen as you present the code
+
+you are supposed to create separate folders for tables, data, and queries, do that work, commit, and push
+
+you want to impress them, by modifying the table to also record body parts of animals
+add a creature type to the table
+
+creaturetype varchar(25) not null
+
+OMG you realize that you don't have time to finish this work before the code review but you don't want to lose your work... you have 1 minute before you have to present your work, what should you do?
+
+Lets put the changes on the stash, do the code review and then continue that work
+
+K, you did the code review, one of your teammates suggested making num body parts nullable in order to store the hair record
+
+do the suggested work, modify the table and sample data, commit and push
+
+nobody knows about the zany idea of recording animal body parts, and now you realize that people may not like it so it should be done in a new branch
+
+pop the changes into a new branch called trial (see documentation on stash), and commit
+
+now you get call from a teammate, asking if you did change to num body parts yet, and if you did then please push it, you say sure, but you don't want to push your trial branch
+
+push main but not trial branch
+
+now you get call from teammate that he has the brilliant idea of including body parts of people from other planets, and he created a new branch called out-of-this-world, you think to yourself "why didn't I think of that...", he asks you to pull and review the code
+
+(play the role of the teammate and create the out-of-this-world branch on github and write the code on github)
+
+pull the out-of-this-world branch, and since several files changed, review it with BeyondCompare, add your comments into the SQL file, commit and push
+
+now if he can do aliens, I certainly can do animals, but I can't call the branch trial
+
+rename the branch to earth-creature
+
+push the earth-creature branch
+
+
+
+
+ 

@@ -1,0 +1,6 @@
+echo 1 > restore-scenario.txt
+git add .
+git commit -m "1 setup for restore scenario"
+echo 2 > restore-scenario.txt
+git add .
+echo 3 > restore-scenario.txt

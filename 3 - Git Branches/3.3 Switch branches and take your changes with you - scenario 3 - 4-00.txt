@@ -1,0 +1,9 @@
+rem cd in to git-branch-fun
+
+git switch main
+echo select * from table > 4-queries.txt
+
+rem switch to new-version
+rem see that new file came with us
+rem commit change to new-version
+rem switch to main and see that file is gone
