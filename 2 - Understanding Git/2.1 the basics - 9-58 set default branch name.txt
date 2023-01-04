@@ -1,5 +1,0 @@
---this will show you the default branch name
-git config init.defaultBranch 
-
---If not main then set with 
-git config --global init.defaultBranch main
