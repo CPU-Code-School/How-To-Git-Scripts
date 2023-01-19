@@ -5,5 +5,3 @@ echo 2 > reset-scenario.txt
 git commit -am "2 reset scenario"
 echo 3 > reset-scenario.txt
 git commit -am "3 reset scenario"
-
-06 13:45
